@@ -28,6 +28,6 @@ public class Fraction
     public String toString()
     {
         // put your code here
-        return "num:" + Double.valueOf(num).toString() = " "+ "denum:" + Double.valueOf(denum).toString();
+        return "num:" + Double.valueOf(num).toString() + " "+ "denum:" + Double.valueOf(denum).toString();
     }
 }
