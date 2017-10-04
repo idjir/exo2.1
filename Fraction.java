@@ -1,10 +1,4 @@
 
-/**
- * Write a description of class Fraction here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
 public class Fraction
 {
     // instance variables - replace the example below with your own
@@ -28,6 +22,6 @@ public class Fraction
     public String toString()
     {
         // put your code here
-        return "num:" + Double.valueOf(num).toString() + " "+ "denum:" + Double.valueOf(denum).toString();
+        return Double.valueOf(num).toString() + " "+ "/" + Double.valueOf(denum).toString();
     }
 }
